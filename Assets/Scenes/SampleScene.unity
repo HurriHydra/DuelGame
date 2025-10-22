@@ -240,7 +240,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 385, y: 96}
+  m_AnchoredPosition: {x: 809, y: 182}
   m_SizeDelta: {x: 80.79739, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &105191931
@@ -698,6 +698,10 @@ MonoBehaviour:
   Player2: {fileID: 89481190}
   PlayerText1: {fileID: 834205953}
   PlayerText2: {fileID: 105191931}
+  PlayerTextObject1: {fileID: 834205951}
+  PlayerTextObject2: {fileID: 105191929}
+  Player1Action: test1
+  Player2Action: hi
   BaseText1: {fileID: 1638483070}
 --- !u!1 &834205951
 GameObject:
@@ -733,7 +737,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 54.800003, y: 96}
+  m_AnchoredPosition: {x: 121, y: 182}
   m_SizeDelta: {x: 80.79739, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &834205953
