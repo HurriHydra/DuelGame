@@ -238,10 +238,10 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 1759612708}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 809, y: 182}
-  m_SizeDelta: {x: 80.79739, y: 50}
+  m_AnchorMin: {x: 1, y: 0}
+  m_AnchorMax: {x: 1, y: 0}
+  m_AnchoredPosition: {x: -99, y: 182}
+  m_SizeDelta: {x: 80.79736, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &105191931
 MonoBehaviour:
@@ -700,9 +700,12 @@ MonoBehaviour:
   PlayerText2: {fileID: 105191931}
   PlayerTextObject1: {fileID: 834205951}
   PlayerTextObject2: {fileID: 105191929}
-  Player1Action: test1
-  Player2Action: hi
+  Player1Action: 0
+  Player2Action: 0
+  GameStart: 0
   BaseText1: {fileID: 1638483070}
+  Player1Win: 0
+  Player2Win: 0
 --- !u!1 &834205951
 GameObject:
   m_ObjectHideFlags: 0
@@ -900,7 +903,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 7482667652216324306, guid: 311925a002f4447b3a28927169b83ea6, type: 3}
+  m_Sprite: {fileID: 5243601228731193264, guid: e7f4549c53ade7d47a0ade4c85332851, type: 3}
   m_Color: {r: 0.8584906, g: 0.6144814, b: 0.21462265, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -920,8 +923,8 @@ Transform:
   m_GameObject: {fileID: 1576566501}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.0339, y: -0.0187, z: -0.75}
-  m_LocalScale: {x: 18.109594, y: 9.978526, z: 1}
+  m_LocalPosition: {x: 0.0199, y: -0.0467, z: -0.75}
+  m_LocalScale: {x: 1.5579568, y: 1.5712453, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -960,8 +963,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 3.8732, y: 68.4}
-  m_SizeDelta: {x: 385.6434, y: 50}
+  m_AnchoredPosition: {x: 12.4485, y: 132}
+  m_SizeDelta: {x: 437.7008, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1638483070
 MonoBehaviour:
@@ -1016,7 +1019,7 @@ MonoBehaviour:
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
   m_fontSizeMax: 72
-  m_fontStyle: 2
+  m_fontStyle: 3
   m_HorizontalAlignment: 2
   m_VerticalAlignment: 256
   m_textAlignment: 65535
